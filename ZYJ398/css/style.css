@@ -1,0 +1,37 @@
+.lside{
+    text-align: center;
+}
+.lside img{
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    transition: 0.5s;
+}
+.bt1{
+    width: 100%;
+    height: 28px;
+    background: black;
+    float: left;
+    position: relative;
+    bottom: 28px;
+    opacity: 0.5;
+}
+.lside img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.rside{
+    text-align: center;
+}
+.rside img{
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    transition: 0.5s;
+}
+.rside img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
